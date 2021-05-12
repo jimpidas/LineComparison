@@ -20,8 +20,11 @@ namespace LineComparisonProblem
                 Console.WriteLine("Lines are equal");
             else
                 Console.WriteLine("Lines are  not equal");
-
-
+            if (line1 > line2)
+                Console.WriteLine("Line 1 is greater : " + line1);
+            else if (line2 > line1)
+                Console.WriteLine("Line 2 is greater : " + line2);
         }
+
     }
 }
